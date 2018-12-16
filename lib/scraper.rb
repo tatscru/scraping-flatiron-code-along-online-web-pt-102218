@@ -11,8 +11,6 @@ class Scraper
     #should only do one thing per method 
   end 
 
-
-
 # Scraper.new.get_page
   
 #   def print_courses

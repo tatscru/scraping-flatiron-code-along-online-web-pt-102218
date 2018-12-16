@@ -37,7 +37,7 @@ Scraper.new.get_page
   def get_courses
     self.get_page.css(".post")
     #operated on the HTML page.. so you should refer to .get_page
-    # puts doc.css("h2")
+    # puts doc aka [.get_page].css("")
   end 
   
 #   def make_courses

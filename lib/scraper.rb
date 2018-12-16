@@ -40,11 +40,11 @@ class Scraper
     # puts doc aka [.get_page].css("")
   end 
   
-#   def make_courses
-#     #instantiating Course objects + giving each course the correct title, schedule, + description
-#   end 
+  def make_courses
+    #instantiating Course objects + giving each course the correct title, schedule, + description
+  end 
   
-#   end
+  end
   
 end
 

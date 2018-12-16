@@ -11,8 +11,6 @@ class Scraper
     #should only do one thing per method 
   end 
 
-# Scraper.new.get_page
-
   def get_courses
     self.get_page.css(".post")
     #operated on the HTML page.. so you should refer to .get_page

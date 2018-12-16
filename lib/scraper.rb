@@ -13,7 +13,6 @@ class Scraper
   end 
 end 
 
-doc.css(".post")
 
 # Scraper.new.get_page
   

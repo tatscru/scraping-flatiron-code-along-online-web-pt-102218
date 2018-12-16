@@ -40,7 +40,6 @@ end
         #you will need to use pry so you find the right CSS selectors 
     end
   end
-    
 end
 
 Scraper.new.print_courses

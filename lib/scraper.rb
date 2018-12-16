@@ -39,7 +39,7 @@ class Scraper
     
     #instantiating Course objects + giving each course the correct title, schedule, + description
   end 
-  
+end 
 end
 
 

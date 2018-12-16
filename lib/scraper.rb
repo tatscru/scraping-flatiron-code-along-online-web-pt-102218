@@ -13,16 +13,16 @@ class Scraper
 
 # Scraper.new.get_page
   
-#   def print_courses
-#     self.make_courses
-#     Course.all.each do |course|
-#       if course.title
-#         puts "Title: #{course.title}"
-#         puts "  Schedule: #{course.schedule}"
-#         puts "  Description: #{course.description}"
-#         #you will need to use pry so you find the right CSS selectors 
-#     end
-#   end
+  def print_courses
+    self.make_courses
+    Course.all.each do |course|
+      if course.title
+        puts "Title: #{course.title}"
+        puts "  Schedule: #{course.schedule}"
+        puts "  Description: #{course.description}"
+        #you will need to use pry so you find the right CSS selectors 
+    end
+  end
     
   def get_courses
     self.get_page.css(".post")

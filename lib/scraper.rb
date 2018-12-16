@@ -34,9 +34,9 @@ Scraper.new.get_page
 #     end
 #   end
     
-#   def get_courses
-#     # puts doc.css("h2")
-#   end 
+  def get_courses
+    # puts doc.css("h2")
+  end 
   
 #   def make_courses
 #     #instantiating Course objects + giving each course the correct title, schedule, + description
